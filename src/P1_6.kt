@@ -12,6 +12,11 @@ fun main(){
     val subtraction = subtract(num1, num2, num3)
     val multiplication = multiply(num1, num2, num3)
     val division = divide(num2, num1)
+
+    println("Addition of $num1, $num2, $num3 is $addition")
+    println("Subtraction of $num1, $num2, $num3 is $subtraction")
+    println("Multiplication of $num1, $num2, $num3 is $multiplication")
+    println("Division of $num2, $num1 is $division")
 }
 
 fun add(a: Int, b: Int, c: Int): Int = a + b + c
